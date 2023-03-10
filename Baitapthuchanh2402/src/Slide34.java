@@ -12,7 +12,7 @@ public class Slide34
 	    System.out.print("Nhap a: ");
 	    a = sc.nextInt();
 	    System.out.print("Nhap b: ");
-	    b = sc.nextInt();
+	    b = sc.nextInt();p
 	    System.out.print("Nhap c: ");
 	    c = sc.nextInt();
 	    
