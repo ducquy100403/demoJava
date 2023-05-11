@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-public class App {
+public class MaxMin {
     public static void main(String[] args) throws Exception {
         ArrayList<Integer> arrListInteger = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
@@ -14,6 +14,7 @@ public class App {
         }
         int max, min;
         max = arrListInteger.get(0);
+        
         min = arrListInteger.get(0);
         for( int i = 1; i < arrListInteger.size(); i++){
             if ( arrListInteger.get(i).compareTo(max)>0){
