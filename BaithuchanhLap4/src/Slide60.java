@@ -3,7 +3,7 @@ import java.util.Set;
 
 public class Slide60 {
     public static void main(String[] args) {
-        Set<String> linkedHashSet = new LinkedHashSet<String>(null);
+        Set<String> linkedHashSet = new LinkedHashSet<String>();
         linkedHashSet.add("java");
         linkedHashSet.add("C++");
         linkedHashSet.add("Java");
